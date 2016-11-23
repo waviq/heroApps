@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.waviq.heromeapp.Fragments.MainFragment"
+             android:background="@drawable/hero_bg_gradient">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Membuat actionbar custom-->
+        <!--<android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#243749"
+            android:minHeight="?attr/actionBarSize">
+            &lt;!&ndash;Bila ingin dalam actionbar berupa image&ndash;&gt;
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/top_banner_bar"
+                />
+        </android.support.v7.widget.Toolbar>-->
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:srcCompat="@drawable/heroes"/>
+
+        <Button
+            android:text="Came by accident"
+            android:layout_width="300dp"
+            android:id="@+id/accidentBtn"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@drawable/hero_button"
+            android:textColor="#fbc82d"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/lightning"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textStyle="normal|bold"
+            android:layout_height="55dp"/>
+        <Button
+            android:text="Genetic mutation"
+            android:layout_width="300dp"
+            android:id="@+id/geneticBtn"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@drawable/hero_button"
+            android:textColor="#fbc82d"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textStyle="normal|bold"
+            android:layout_height="55dp"/>
+        <Button
+            android:text="Born with them"
+            android:layout_width="300dp"
+            android:id="@+id/bornBtn"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@drawable/hero_button"
+            android:textColor="#fbc82d"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal|bold"
+            android:layout_height="55dp"/>
+        <Button
+            android:text="CHOOSE POWER"
+            android:layout_width="300dp"
+            android:id="@+id/chooseBtn"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@drawable/hero_solid_buttom"
+            android:textColor="#121921"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal|bold"
+            android:textSize="22sp"
+            android:layout_height="55dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
